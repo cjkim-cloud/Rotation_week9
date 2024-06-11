@@ -110,3 +110,7 @@ for x, y, z in zip(mode_list_3d[0], mode_list_3d[1], mode_list_3d[2]) :
 
 ax[1].legend(handles=legend_list_2, title='Cluster', fontsize=8)
 
+
+
+### See "plot_2d_3d_mean_mode.png" in this repository
+
