@@ -83,6 +83,12 @@ for x, y in zip(mode_list[0], mode_list[1]) :
 
 ###############  Second, 3 dimension data
 
+xs= np_vaf_3d[0]
+ys = np_vaf_3d[1]
+zs = np_vaf_3d[2]
+
+colors = np.array(['#9ac0e6', '#d6a6d3', '#fe7f0e'])
+color_map_3d = colors[np_truth_3d]
 
 ax[1] = fig.add_subplot(122, projection='3d')
 ax[1].scatter(xs, ys, zs, c=color_map_3d, marker='o', s=15)
