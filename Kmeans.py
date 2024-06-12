@@ -8,3 +8,10 @@ def RUNNING_KMEANS(np_vaf, num_of_clusters):
     print("output ; np_kmeans_label (i,)")
 
     return np_kmeans_label, kmeans_centroid_list
+
+def CALC_ARI_SCORE(predicted_lables, np_truth) :
+    cluster_result = predicted_lables
+    true_labels = np_truth
+    ari_score = round(adjusted_rand_score(true_labels, cluster_result) , 3)
+
+    return ari_score
