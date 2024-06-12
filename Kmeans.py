@@ -1,3 +1,8 @@
+from sklearn.cluster import KMeans
+from sklearn.metrics import adjusted_rand_score
+import numpy as np
+import pandas as pd
+
 def RUNNING_KMEANS(np_vaf, num_of_clusters):
     kmeans = KMeans(n_clusters=num_of_clusters, random_state=99)
     kmeans.fit(np_vaf.T)
