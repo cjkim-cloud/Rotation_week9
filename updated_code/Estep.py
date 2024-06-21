@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 from sklearn.cluster import KMeans
+import math
 
 def CALC_POSTERIOL_THETA(NUM_OF_VARIANTS, DF_ALT, DF_DEPTH, DIMENSION, num_of_clusters, mixture) :
 
