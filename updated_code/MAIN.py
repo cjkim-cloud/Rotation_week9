@@ -1,3 +1,20 @@
+import numpy as np
+import pandas as pd
+
+from mpl_toolkits.mplot3d import Axes3D
+import matplotlib.pyplot as plt
+import numpy as np
+from scipy import stats
+
+from sklearn.decomposition import PCA, TruncatedSVD
+from sklearn.cluster import KMeans
+from sklearn.metrics import adjusted_rand_score
+import matplotlib.patches as mpatches
+from sklearn.metrics import silhouette_samples, silhouette_score
+
+import math
+
+
 
 import KMeans.py, Estep.py, Mstep.py, EMstep.py, Record_obj.py, PROCESS_INPUT_DATA.py, save.py, scores.py
 import VISUALIZATION.py, dimension_reduction.py
