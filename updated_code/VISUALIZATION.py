@@ -14,7 +14,7 @@ from sklearn.metrics import silhouette_samples, silhouette_score
 
 import math
 
-import Record_obj.py, scores.py
+import Record_obj.py, scores.py, dimension_reduction.py
 
 def CLUSTER_VISUALIZATION_1D(OUTPUT_DIR, NP_VAF_1D, cluster_hard_obj, NP_TRUTH=None) :
 
