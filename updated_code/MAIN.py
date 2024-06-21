@@ -1,6 +1,6 @@
 
 import KMeans.py, Estep.py, Mstep.py, EMstep.py, Record_obj.py, PROCESS_INPUT_DATA.py, save.py, scores.py
-import VISUALIZATION.py
+import VISUALIZATION.py, dimension_reduction.py
 
 def MAIN(INPUT_PATH, OUTPUT_DIR) :
 
