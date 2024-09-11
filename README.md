@@ -1,3 +1,3 @@
 # Rotation_week9
 
-It is recommended to watch "updated_code"
+It is recommended to refer to "updated_code"
